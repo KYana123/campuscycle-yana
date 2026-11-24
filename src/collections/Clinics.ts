@@ -51,7 +51,7 @@ export const Clinics: CollectionConfig = {
       type: 'array',
       fields: [{ name: 'item', type: 'text', required: true }],
     },
-
+      
     // The reverse side (a join) of the one-to-many: one clinic has many time slots. The link is stored
     // once, in each time slot's "clinic" field.
     {
